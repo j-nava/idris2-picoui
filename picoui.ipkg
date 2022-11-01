@@ -22,7 +22,9 @@ depends
   , freer
 
 -- modules to install
-modules = PicoUI
+modules
+  = PicoUI
+  , PicoCSS
 
 -- main file (i.e. file to load at REPL)
 -- main =
